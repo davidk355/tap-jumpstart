@@ -42,7 +42,7 @@ spec:
           value: hello world
         - name: JAVA_TOOL_OPTIONS
           value: -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: dkariregistry.azurecr.io/tapjumpstart/simple-webapp-default@sha256:94225acfb5214ad8e76a227c7b62bf8dcda7a0f997f9ed3d534bc30e9313ec45
+        image: dkariregistry.azurecr.io/tapjumpstart/simple-webapp-default@sha256:48710e2d36b78cf15e4e22b42fd7641a9b5bbc61ca1a825957d4a512ca645722
         name: workload
         ports:
         - containerPort: 8080
